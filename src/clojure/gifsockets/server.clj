@@ -57,7 +57,7 @@
     (not (.isClosed socket))))
 
 (defn start
-  "Start a TCP server going."
+  "Know an TCP-Server."
   [server]
   (open-server-socket server)
   (future
